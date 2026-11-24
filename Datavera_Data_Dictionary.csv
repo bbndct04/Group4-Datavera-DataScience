@@ -1,0 +1,34 @@
+Field Name,Data Type,Data Format,Field Size,Description,Example
+school,Text,GP / MS,2,School code (GP or MS),GP
+sex,Text,F / M,1,Student sex (F/M),F
+age,Integer,15–22 (years),2,Age in years,18
+address,Text,U / R,1,Urban/rural home address,U
+famsize,Text,LE3 / GT3,3,Family size category,GT3
+Pstatus,Text,T / A,1,Parents living together/apart,A
+Medu,Integer,0–4,1,Mother education level (0–4),4
+Fedu,Integer,0–4,1,Father education level (0–4),4
+Mjob,Text,Categorical text,8,Mother occupation category,at_home
+Fjob,Text,Categorical text,8,Father occupation category,teacher
+reason,Text,Categorical text,10,Reason for school selection,course
+guardian,Text,Categorical text,6,Primary guardian,mother
+traveltime,Integer,1–4,1,Travel time category (1–4),2
+studytime,Integer,1–4,1,Weekly study hours category (1–4),2
+failures,Integer,0–4,1,Number of previous class failures,0
+schoolsup,Text,yes / no,3,Extra school support (yes/no),yes
+famsup,Text,yes / no,3,Family education support (yes/no),no
+paid,Text,yes / no,3,Paid extra subject classes (yes/no),no
+activities,Text,yes / no,3,Extracurricular participation (yes/no),no
+nursery,Text,yes / no,3,Attended nursery (yes/no),yes
+higher,Text,yes / no,3,Plans higher education (yes/no),yes
+internet,Text,yes / no,3,Home internet access (yes/no),no
+romantic,Text,yes / no,3,Romantic relationship (yes/no),no
+famrel,Integer,1–5,1,Family relationship quality (1–5),4
+freetime,Integer,1–5,1,Free time after school (1–5),3
+goout,Integer,1–5,1,Going out with friends (1–5),4
+Dalc,Integer,1–5,1,Workday alcohol consumption (1–5),1
+Walc,Integer,1–5,1,Weekend alcohol consumption (1–5),1
+health,Integer,1–5,1,Self-reported health (1–5),3
+absences,Integer,0–93,2,School absences,4
+G1,Integer,0–20,2,First period grade (0–20),0
+G2,Integer,0–20,2,Second period grade (0–20),11
+G3,Integer,0–20,2,Final period grade (0–20; target),11
